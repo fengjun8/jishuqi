@@ -26,6 +26,7 @@ import {
   CalculatorIcon,
   MessageIcon,
 } from "@/components/fa-icons"
+import RelatedTools from "@/components/related-tools"
 
 type CountRecord = {
   timestamp: string
@@ -317,6 +318,13 @@ export default function OnlineCounter() {
           </div>
         </CardContent>
       </Card>
+
+      {/* Related Tools Section */}
+      <RelatedTools 
+        category="calculator" 
+        maxTools={30} 
+        className="m-4" 
+      />
 
       {/* Footer */}
       <footer className="mt-10 py-6 px-4 bg-black border-t border-gray-800 text-center text-sm text-white">

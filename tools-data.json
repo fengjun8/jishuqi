@@ -1,0 +1,612 @@
+{
+  "tools": [
+    {
+      "id": "nationalflag",
+      "url": "https://nationalflag.io/",
+      "category": "common",
+      "anchors": ["national flag", "世界国旗图片"]
+    },
+    {
+      "id": "favicon",
+      "url": "https://favicon.pub/",
+      "category": "common",
+      "anchors": ["Favicon converter","favicon生成器"]
+    },
+    {
+      "id": "msg-converter",
+      "url": "https://msg.fengjun.wang/",
+      "category": "converter",
+      "anchors": ["msg转eml", "邮件格式转换", "邮件转换工具", "msg文件转换", "eml转换器"]
+    },
+    {
+      "id": "scoreboard",
+      "url": "https://jifenban.fengjun.wang/",
+      "category": "game",
+      "anchors": ["在线计分板", "比赛计分", "游戏计分", "积分统计", "分数记录"]
+    },
+    {
+      "id": "dynasty",
+      "url": "https://chaodai.fengjun.wang/",
+      "category": "reference",
+      "anchors": ["历史朝代顺序表", "朝代顺序", "中国历史", "朝代表", "历史年表"]
+    },
+    {
+      "id": "lubanchi",
+      "url": "https://lubanchi.fengjun.wang/",
+      "category": "traditional",
+      "anchors": ["鲁班尺", "风水尺", "古建筑尺", "传统测量", "木工尺"]
+    },
+    {
+      "id": "mole-reading",
+      "url": "https://zhixiang.fengjun.wang/",
+      "category": "traditional",
+      "anchors": ["痣相图解", "面相分析", "痣相大全", "相术查询", "面部痣相"]
+    },
+    {
+      "id": "constellation",
+      "url": "https://xingxiu.fengjun.wang/",
+      "category": "traditional",
+      "anchors": ["星宿查询", "二十八星宿", "星座关系", "天文星宿", "星宿图"]
+    },
+    {
+      "id": "compass",
+      "url": "https://luopan.fengjun.wang/",
+      "category": "traditional",
+      "anchors": ["在线罗盘", "风水罗盘", "指南针", "方位查询", "罗盘工具"]
+    },
+    {
+      "id": "id-card",
+      "url": "https://sfz.fengjun.wang/",
+      "category": "query",
+      "anchors": ["身份证查询", "身份证归属地", "身份证验证", "证件查询", "身份证号码"]
+    },
+    {
+      "id": "minesweeper",
+      "url": "https://saolei.fengjun.wang/",
+      "category": "game",
+      "anchors": ["扫雷游戏", "在线扫雷", "经典扫雷", "扫雷小游戏", "益智游戏"]
+    },
+    {
+      "id": "pin-ball",
+      "url": "https://jfcz.fengjun.wang/",
+      "category": "game",
+      "anchors": ["见缝插针", "插针游戏", "反应游戏", "技巧游戏", "休闲游戏"]
+    },
+    {
+      "id": "2048",
+      "url": "https://2048.fengjun.wang/",
+      "category": "game",
+      "anchors": ["2048游戏", "数字游戏", "益智拼图", "2048小游戏", "逻辑游戏"]
+    },
+    {
+      "id": "truth-dare",
+      "url": "https://damaoxian.fengjun.wang/",
+      "category": "entertainment",
+      "anchors": ["真心话大冒险", "聚会游戏", "互动游戏", "派对游戏", "社交游戏"]
+    },
+    {
+      "id": "plant-recognition",
+      "url": "https://zhiwu.fengjun.wang/",
+      "category": "ai",
+      "anchors": ["植物识别", "拍照识花", "花草识别", "植物查询", "AI识别"]
+    },
+    {
+      "id": "riddles",
+      "url": "https://miyu.fengjun.wang/",
+      "category": "entertainment",
+      "anchors": ["谜语大全", "猜谜游戏", "脑筋急转弯", "智力题", "谜语集"]
+    },
+    {
+      "id": "baby-naming",
+      "url": "https://quming.fengjun.wang/",
+      "category": "traditional",
+      "anchors": ["宝宝取名", "起名大全", "姓名测试", "婴儿起名", "名字生成"]
+    },
+    {
+      "id": "beauty-test",
+      "url": "https://yanzhi.fengjun.wang/",
+      "category": "entertainment",
+      "anchors": ["颜值测试", "美貌评分", "颜值打分", "外貌测试", "AI颜值"]
+    },
+    {
+      "id": "lipstick-colors",
+      "url": "https://kouhong.fengjun.wang/",
+      "category": "beauty",
+      "anchors": ["口红色号", "唇色搭配", "口红试色", "美妆色号", "唇膏颜色"]
+    },
+    {
+      "id": "guandi-fortune",
+      "url": "https://guandi.fengjun.wang/",
+      "category": "traditional",
+      "anchors": ["关帝灵签", "求签问卜", "灵签占卜", "关公灵签", "在线求签"]
+    },
+    {
+      "id": "ancient-poetry",
+      "url": "https://gushi.fengjun.wang/",
+      "category": "education",
+      "anchors": ["古诗词", "小学古诗", "必背古诗", "诗词大全", "古典诗歌"]
+    },
+    {
+      "id": "special-symbols",
+      "url": "https://fuhao.fengjun.wang/",
+      "category": "reference",
+      "anchors": ["特殊符号", "符号大全", "特殊字符", "Unicode符号", "符号表"]
+    },
+    {
+      "id": "litigation-fee",
+      "url": "https://susongfei.fengjun.wang/",
+      "category": "calculator",
+      "anchors": ["诉讼费计算", "法院费用", "诉讼成本", "司法费用", "案件费用"]
+    },
+    {
+      "id": "klotski",
+      "url": "https://huarongdao.fengjun.wang/",
+      "category": "game",
+      "anchors": ["数字华容道", "滑块拼图", "华容道游戏", "益智拼图", "数字游戏"]
+    },
+    {
+      "id": "daletou",
+      "url": "https://daletou.fengjun.wang/",
+      "category": "lottery",
+      "anchors": ["大乐透机选", "彩票号码", "大乐透选号", "随机选号", "彩票工具"]
+    },
+    {
+      "id": "shuangseqiu",
+      "url": "https://shuangseqiu.fengjun.wang/",
+      "category": "lottery",
+      "anchors": ["双色球机选", "双色球选号", "彩票生成", "随机彩票", "双色球工具"]
+    },
+    {
+      "id": "answer-book",
+      "url": "https://daan.fengjun.wang/",
+      "category": "entertainment",
+      "anchors": ["答案之书", "占卜问答", "神秘答案", "随机答案", "心理测试"]
+    },
+    {
+      "id": "ascii-table",
+      "url": "https://ascii.fengjun.wang/",
+      "category": "reference",
+      "anchors": ["ASCII码表", "字符编码", "ASCII对照", "编程参考", "字符集"]
+    },
+    {
+      "id": "rubiks-cube",
+      "url": "https://mofang.fengjun.wang/",
+      "category": "game",
+      "anchors": ["魔方游戏", "3D魔方", "在线魔方", "魔方模拟", "立体拼图"]
+    },
+    {
+      "id": "sudoku",
+      "url": "https://shudu.fengjun.wang/",
+      "category": "game",
+      "anchors": ["在线数独", "数独游戏", "数字拼图", "逻辑游戏", "数独题目"]
+    },
+    {
+      "id": "lianliankan",
+      "url": "https://lianliankan.fengjun.wang/",
+      "category": "game",
+      "anchors": ["果蔬连连看", "连连看游戏", "消除游戏", "配对游戏", "记忆游戏"]
+    },
+    {
+      "id": "depression-test",
+      "url": "https://yiyuzheng.fengjun.wang/",
+      "category": "health",
+      "anchors": ["抑郁症测试", "心理健康", "情绪测试", "心理评估", "抑郁自测"]
+    },
+    {
+      "id": "fireworks",
+      "url": "https://yanhua.fengjun.wang/",
+      "category": "entertainment",
+      "anchors": ["烟花模拟器", "虚拟烟花", "烟花特效", "节日烟花", "烟花动画"]
+    },
+    {
+      "id": "gomoku",
+      "url": "https://wuziqi.fengjun.wang/",
+      "category": "game",
+      "anchors": ["五子棋游戏", "在线五子棋", "棋类游戏", "策略游戏", "对弈游戏"]
+    },
+    {
+      "id": "zodiac-signs",
+      "url": "https://xingzuo.fengjun.wang/",
+      "category": "traditional",
+      "anchors": ["十二星座", "星座查询", "星座运势", "星座配对", "占星术"]
+    },
+    {
+      "id": "hundred-surnames",
+      "url": "https://baijiaxing.fengjun.wang/",
+      "category": "reference",
+      "anchors": ["百家姓", "中国姓氏", "姓氏查询", "姓氏大全", "姓氏文化"]
+    },
+    {
+      "id": "periodic-table",
+      "url": "https://yuansu.fengjun.wang/",
+      "category": "education",
+      "anchors": ["元素周期表", "化学元素", "元素查询", "化学参考", "元素表"]
+    },
+    {
+      "id": "keyboard-test",
+      "url": "https://jianpan.fengjun.wang/",
+      "category": "test",
+      "anchors": ["键盘测试", "按键检测", "键盘检查", "硬件测试", "键位测试"]
+    },
+    {
+      "id": "counter",
+      "url": "https://jishuqi.fengjun.wang/",
+      "category": "tool",
+      "anchors": ["在线计数器", "数字计数", "点击计数", "计数工具", "统计计数"]
+    },
+    {
+      "id": "flag-gallery",
+      "url": "https://guoqi.fengjun.wang/",
+      "category": "reference",
+      "anchors": ["国旗图片", "世界国旗", "国旗大全", "各国旗帜", "国旗展示"]
+    },
+    {
+      "id": "text-splitter",
+      "url": "https://txt.fengjun.wang/",
+      "category": "text",
+      "anchors": ["文本分割", "文字切割", "文本处理", "字符串分割", "文本工具"]
+    },
+    {
+      "id": "text-compare",
+      "url": "https://txt.fengjun.wang/text-compare",
+      "category": "text",
+      "anchors": ["文本对比", "文字比较", "差异检测", "文档对比", "内容比较"]
+    },
+    {
+      "id": "text-dedupe",
+      "url": "https://txt.fengjun.wang/text-dedupe",
+      "category": "text",
+      "anchors": ["文本去重", "重复删除", "去除重复", "文字去重", "内容去重"]
+    },
+    {
+      "id": "text-merge",
+      "url": "https://txt.fengjun.wang/text-merge",
+      "category": "text",
+      "anchors": ["文本合并", "文字合并", "内容合并", "文档合并", "文本拼接"]
+    },
+    {
+      "id": "mx-record",
+      "url": "https://mx.fengjun.wang/",
+      "category": "network",
+      "anchors": ["MX记录查询", "邮件服务器", "DNS查询", "域名解析", "邮箱记录"]
+    },
+    {
+      "id": "ico-maker",
+      "url": "https://ico.fengjun.wang/",
+      "category": "design",
+      "anchors": ["ICO图标制作", "图标生成", "favicon制作", "图标转换", "ICO生成器"]
+    },
+    {
+      "id": "mortgage-calc",
+      "url": "https://jsq.fengjun.wang/",
+      "category": "calculator",
+      "anchors": ["房贷计算器", "贷款计算", "按揭计算", "房屋贷款", "还款计算"]
+    },
+    {
+      "id": "early-repayment",
+      "url": "https://jsq.fengjun.wang/early-repayment",
+      "category": "calculator",
+      "anchors": ["提前还贷", "提前还款", "贷款提前", "还贷计算", "提前偿还"]
+    },
+    {
+      "id": "house-tax",
+      "url": "https://jsq.fengjun.wang/house-tax",
+      "category": "calculator",
+      "anchors": ["购房税费", "房产税费", "买房税费", "房屋税收", "购房成本"]
+    },
+    {
+      "id": "deposit-calc",
+      "url": "https://jsq.fengjun.wang/deposit",
+      "category": "calculator",
+      "anchors": ["存款利率", "银行利息", "定期存款", "利息计算", "储蓄计算"]
+    },
+    {
+      "id": "income-tax",
+      "url": "https://jsq.fengjun.wang/income-tax",
+      "category": "calculator",
+      "anchors": ["个税计算器", "个人所得税", "税收计算", "工资税费", "纳税计算"]
+    },
+    {
+      "id": "after-tax",
+      "url": "https://jsq.fengjun.wang/after-tax",
+      "category": "calculator",
+      "anchors": ["税后工资", "实发工资", "到手工资", "工资计算", "薪资计算"]
+    },
+    {
+      "id": "insurance-calc",
+      "url": "https://jsq.fengjun.wang/insurance",
+      "category": "calculator",
+      "anchors": ["五险一金", "社保计算", "公积金计算", "保险费用", "社会保险"]
+    },
+    {
+      "id": "family-relation",
+      "url": "https://qinqi.fengjun.wang/",
+      "category": "reference",
+      "anchors": ["亲戚关系", "称谓计算", "家庭关系", "亲属称呼", "血缘关系"]
+    },
+    {
+      "id": "online-ruler",
+      "url": "https://chizi.fengjun.wang/",
+      "category": "tool",
+      "anchors": ["在线尺子", "屏幕尺子", "测量工具", "长度测量", "虚拟尺子"]
+    },
+    {
+      "id": "reaction-test",
+      "url": "https://fanying.fengjun.wang/reaction-test",
+      "category": "test",
+      "anchors": ["反应速度", "反应测试", "反应时间", "速度测试", "敏捷测试"]
+    },
+    {
+      "id": "schulte-grid",
+      "url": "https://fanying.fengjun.wang/schulte-grid",
+      "category": "test",
+      "anchors": ["舒尔特方格", "注意力训练", "专注力测试", "视觉训练", "认知训练"]
+    },
+    {
+      "id": "random-generator",
+      "url": "https://suijishu.fengjun.wang/",
+      "category": "generator",
+      "anchors": ["随机数生成", "随机密码", "密码生成器", "随机工具", "数字生成"]
+    },
+    {
+      "id": "word-counter",
+      "url": "https://zishu.fengjun.wang/",
+      "category": "text",
+      "anchors": ["字数统计", "文字计数", "字符统计", "文本统计", "词数统计"]
+    },
+    {
+      "id": "number-converter",
+      "url": "https://zhuanhuan.fengjun.wang/",
+      "category": "converter",
+      "anchors": ["大写数字", "数字转换", "金额大写", "数字大写", "中文数字"]
+    },
+    {
+      "id": "color-converter",
+      "url": "https://zhuanhuan.fengjun.wang/color",
+      "category": "converter",
+      "anchors": ["颜色转换", "色值转换", "RGB转换", "十六进制", "颜色代码"]
+    },
+    {
+      "id": "base-converter",
+      "url": "https://zhuanhuan.fengjun.wang/jinzhi",
+      "category": "converter",
+      "anchors": ["进制转换", "二进制", "十六进制", "八进制", "数制转换"]
+    },
+    {
+      "id": "length-converter",
+      "url": "https://zhuanhuan.fengjun.wang/length",
+      "category": "converter",
+      "anchors": ["长度转换", "单位换算", "米厘米", "英寸转换", "长度单位"]
+    },
+    {
+      "id": "area-converter",
+      "url": "https://zhuanhuan.fengjun.wang/area",
+      "category": "converter",
+      "anchors": ["面积换算", "平方米", "亩换算", "面积转换", "面积单位"]
+    },
+    {
+      "id": "volume-converter",
+      "url": "https://zhuanhuan.fengjun.wang/volume",
+      "category": "converter",
+      "anchors": ["体积换算", "容积转换", "立方米", "升毫升", "体积单位"]
+    },
+    {
+      "id": "weight-converter",
+      "url": "https://zhuanhuan.fengjun.wang/weight",
+      "category": "converter",
+      "anchors": ["重量换算", "质量转换", "公斤克", "磅换算", "重量单位"]
+    },
+    {
+      "id": "density-converter",
+      "url": "https://zhuanhuan.fengjun.wang/density",
+      "category": "converter",
+      "anchors": ["密度换算", "密度转换", "密度单位", "比重换算", "物理换算"]
+    },
+    {
+      "id": "temperature-converter",
+      "url": "https://zhuanhuan.fengjun.wang/temperature",
+      "category": "converter",
+      "anchors": ["温度换算", "摄氏度", "华氏度", "开尔文", "温度转换"]
+    },
+    {
+      "id": "pressure-converter",
+      "url": "https://zhuanhuan.fengjun.wang/pressure",
+      "category": "converter",
+      "anchors": ["压力换算", "压强转换", "帕斯卡", "大气压", "压力单位"]
+    },
+    {
+      "id": "byte-converter",
+      "url": "https://zhuanhuan.fengjun.wang/byte",
+      "category": "converter",
+      "anchors": ["字节换算", "存储单位", "KB MB GB", "文件大小", "数据单位"]
+    },
+    {
+      "id": "time-converter",
+      "url": "https://zhuanhuan.fengjun.wang/time",
+      "category": "converter",
+      "anchors": ["时间换算", "时间转换", "秒分时", "时间单位", "时长换算"]
+    },
+    {
+      "id": "speed-converter",
+      "url": "https://zhuanhuan.fengjun.wang/speed",
+      "category": "converter",
+      "anchors": ["速度换算", "速度转换", "公里每小时", "米每秒", "速度单位"]
+    },
+    {
+      "id": "power-converter",
+      "url": "https://zhuanhuan.fengjun.wang/power",
+      "category": "converter",
+      "anchors": ["功率换算", "功率转换", "瓦特", "马力", "功率单位"]
+    },
+    {
+      "id": "english-amount",
+      "url": "https://zhuanhuan.fengjun.wang/english",
+      "category": "converter",
+      "anchors": ["英文金额", "英文大写", "金额英文", "数字英文", "英文数字"]
+    },
+    {
+      "id": "english-date",
+      "url": "https://zhuanhuan.fengjun.wang/yingwen-date",
+      "category": "converter",
+      "anchors": ["英文日期", "日期格式", "英文时间", "日期转换", "时间格式"]
+    },
+    {
+      "id": "chinese-converter",
+      "url": "https://zhuanhuan.fengjun.wang/chinese",
+      "category": "converter",
+      "anchors": ["简繁转换", "繁体字", "简体字", "中文转换", "汉字转换"]
+    },
+    {
+      "id": "alphabet",
+      "url": "https://zhuanhuan.fengjun.wang/alphabet",
+      "category": "reference",
+      "anchors": ["英文字母表", "26个字母", "字母顺序", "英语字母", "ABC字母"]
+    },
+    {
+      "id": "lunar-converter",
+      "url": "https://zhuanhuan.fengjun.wang/nongli",
+      "category": "converter",
+      "anchors": ["农历转换", "公历农历", "阴历阳历", "日历转换", "农历查询"]
+    },
+    {
+      "id": "safe-period",
+      "url": "https://anquanqi.fengjun.wang/",
+      "category": "health",
+      "anchors": ["安全期计算", "排卵期", "月经周期", "生理期", "女性健康"]
+    },
+    {
+      "id": "pregnancy-week",
+      "url": "https://anquanqi.fengjun.wang/pregnancy-week-calculator",
+      "category": "health",
+      "anchors": ["孕周计算", "怀孕周期", "孕期计算", "胎儿发育", "孕妇健康"]
+    },
+    {
+      "id": "due-date",
+      "url": "https://anquanqi.fengjun.wang/due-date-calculator",
+      "category": "health",
+      "anchors": ["预产期计算", "分娩日期", "怀孕预产", "生产日期", "孕期预测"]
+    },
+    {
+      "id": "fetal-weight",
+      "url": "https://anquanqi.fengjun.wang/fetal-weight-calculator",
+      "category": "health",
+      "anchors": ["胎儿体重", "胎儿发育", "胎重计算", "孕期检查", "胎儿健康"]
+    },
+    {
+      "id": "blood-type",
+      "url": "https://anquanqi.fengjun.wang/blood-type-calculator",
+      "category": "health",
+      "anchors": ["血型计算", "孩子血型", "血型遗传", "血型预测", "遗传血型"]
+    },
+    {
+      "id": "baby-gender",
+      "url": "https://anquanqi.fengjun.wang/baby-gender-calculator",
+      "category": "traditional",
+      "anchors": ["生男生女", "清宫图", "胎儿性别", "性别预测", "生育预测"]
+    },
+    {
+      "id": "chinese-zodiac",
+      "url": "https://time.fengjun.wang/chinese-zodiac",
+      "category": "traditional",
+      "anchors": ["生肖查询", "十二生肖", "属相查询", "生肖年份", "中国生肖"]
+    },
+    {
+      "id": "date-calculator",
+      "url": "https://time.fengjun.wang/",
+      "category": "calculator",
+      "anchors": ["日期计算", "日期差", "天数计算", "日期工具", "时间计算"]
+    },
+    {
+      "id": "lunar-calendar",
+      "url": "https://time.fengjun.wang/lunar-calendar",
+      "category": "reference",
+      "anchors": ["农历查询", "阴历日期", "传统日历", "农历日历", "中国农历"]
+    },
+    {
+      "id": "bazi",
+      "url": "https://time.fengjun.wang/bazi",
+      "category": "traditional",
+      "anchors": ["生辰八字", "八字查询", "命理八字", "生辰命理", "八字算命"]
+    },
+    {
+      "id": "age-calculator",
+      "url": "https://time.fengjun.wang/age-calculator",
+      "category": "calculator",
+      "anchors": ["年龄计算", "实际年龄", "周岁计算", "生日计算", "年龄查询"]
+    },
+    {
+      "id": "retirement",
+      "url": "https://time.fengjun.wang/retirement",
+      "category": "calculator",
+      "anchors": ["退休年龄", "退休计算", "退休时间", "养老年龄", "退休日期"]
+    },
+    {
+      "id": "stopwatch",
+      "url": "https://time.fengjun.wang/stopwatch",
+      "category": "tool",
+      "anchors": ["在线秒表", "计时器", "秒表工具", "时间计时", "运动计时"]
+    },
+    {
+      "id": "solar-terms",
+      "url": "https://time.fengjun.wang/solar-terms",
+      "category": "reference",
+      "anchors": ["24节气", "二十四节气", "节气查询", "传统节气", "农历节气"]
+    },
+    {
+      "id": "timestamp",
+      "url": "https://time.fengjun.wang/timestamp",
+      "category": "converter",
+      "anchors": ["时间戳转换", "Unix时间", "时间戳", "时间转换", "时间格式"]
+    },
+    {
+      "id": "twelve-hours",
+      "url": "https://time.fengjun.wang/twelve-hours",
+      "category": "reference",
+      "anchors": ["12时辰", "十二时辰", "古代时辰", "传统时间", "时辰对照"]
+    },
+    {
+      "id": "countdown",
+      "url": "https://time.fengjun.wang/countdown",
+      "category": "tool",
+      "anchors": ["倒计时器", "倒数计时", "时间倒计", "活动倒计时", "节日倒计时"]
+    },
+    {
+      "id": "ip-calculator",
+      "url": "https://ip.fengjun.wang/",
+      "category": "network",
+      "anchors": ["IP地址计算", "IP查询", "网络地址", "子网计算", "IP工具"]
+    },
+    {
+      "id": "ipv6-test",
+      "url": "https://ip.fengjun.wang/",
+      "category": "network",
+      "anchors": ["IPv6测试", "IPv6查询", "网络测试", "IP协议", "网络诊断"]
+    },
+    {
+      "id": "emoji",
+      "url": "https://emoji.fengjun.wang/",
+      "category": "reference",
+      "anchors": ["emoji表情", "表情符号", "emoji大全", "表情包", "Unicode表情"]
+    }
+  ],
+  "categories": {
+    "game": "游戏娱乐",
+    "calculator": "计算工具",
+    "converter": "转换工具",
+    "reference": "参考查询",
+    "traditional": "传统文化",
+    "text": "文本处理",
+    "design": "设计工具",
+    "network": "网络工具",
+    "health": "健康医疗",
+    "education": "教育学习",
+    "entertainment": "休闲娱乐",
+    "tool": "实用工具",
+    "test": "测试检测",
+    "generator": "生成工具",
+    "beauty": "美容时尚",
+    "ai": "人工智能",
+    "lottery": "彩票工具",
+    "query": "查询服务"
+  }
+}
