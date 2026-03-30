@@ -74,3 +74,7 @@ export const MessageIcon: React.FC<IconProps> = ({ className = "", style }) => (
 export const UsersIcon: React.FC<IconProps> = ({ className = "", style }) => (
   <i className={`fas fa-users ${className}`} style={style} />
 )
+
+export const ExpandIcon: React.FC<IconProps> = ({ className = "", style }) => (
+  <i className={`fas fa-expand ${className}`} style={style} />
+)

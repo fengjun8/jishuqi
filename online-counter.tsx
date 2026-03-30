@@ -25,6 +25,7 @@ import {
   BarChartIcon,
   CalculatorIcon,
   MessageIcon,
+  ExpandIcon,
 } from "@/components/fa-icons"
 import RelatedTools from "@/components/related-tools"
 
@@ -41,6 +42,7 @@ export default function OnlineCounter() {
   const [incrementAmount, setIncrementAmount] = useState("1")
   const [countHistory, setCountHistory] = useState<CountRecord[]>([])
   const [showBackToTop, setShowBackToTop] = useState(false)
+  const [isFullscreen, setIsFullscreen] = useState(false)
   const topRef = useRef<HTMLDivElement>(null)
 
   // 网站首页链接
@@ -60,6 +62,23 @@ export default function OnlineCounter() {
         timestamp: formatTime(),
         previousCount: count,
         increment: increment,
+        newCount: newCount,
+      },
+      ...countHistory,
+    ])
+
+    setCount(newCount)
+  }
+
+  const handleDecrement = () => {
+    const increment = Number.parseInt(incrementAmount)
+    const newCount = count - increment
+
+    setCountHistory([
+      {
+        timestamp: formatTime(),
+        previousCount: count,
+        increment: -increment,
         newCount: newCount,
       },
       ...countHistory,
@@ -104,9 +123,19 @@ export default function OnlineCounter() {
   // Handle spacebar press
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.code === "Space") {
+      // Ignore key presses if the user is typing in an input
+      if (document.activeElement?.tagName === "INPUT" || document.activeElement?.tagName === "TEXTAREA") {
+        return
+      }
+
+      if (e.code === "Space" || e.key === "ArrowUp") {
         e.preventDefault()
         handleIncrement()
+      } else if (e.key === "-" || e.key === "ArrowDown") {
+        e.preventDefault()
+        handleDecrement()
+      } else if (e.key === "Escape") {
+        setIsFullscreen(false)
       }
     }
 
@@ -128,8 +157,24 @@ export default function OnlineCounter() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  if (isFullscreen) {
+    return (
+      <div className="fixed inset-0 bg-white z-50 flex flex-col items-center justify-center min-h-screen">
+        <div className="flex-1 flex items-center justify-center w-full">
+          <div className="text-[30vw] text-center font-bold text-blue-600 leading-none select-none">
+            {count}
+          </div>
+        </div>
+        <div className="pb-10 text-center text-gray-400 animate-pulse flex flex-col items-center justify-center select-none">
+          <div className="text-xl mb-2">按 ESC 退出全屏</div>
+          <div className="text-base">按 空格/↑ 增加 • 按 -/↓ 减少</div>
+        </div>
+      </div>
+    )
+  }
+
   return (
-    <div className="max-w-3xl mx-auto bg-gradient-to-b from-slate-50 to-white min-h-screen shadow-xl relative">
+    <div className="max-w-5xl mx-auto bg-gradient-to-b from-slate-50 to-white min-h-screen shadow-xl relative">
       <div ref={topRef}></div>
       {/* Header */}
       <div className="flex items-center gap-3 p-5 border-b bg-gradient-to-r from-blue-600 to-blue-500 text-white">
@@ -142,25 +187,37 @@ export default function OnlineCounter() {
       </div>
 
       {/* Counter Display */}
-      <div className="border-2 border-blue-100 p-6 m-4 rounded-xl bg-white shadow-sm">
-        <div className="text-8xl text-center font-bold text-blue-700 py-4">{count}</div>
+      <div className="border-2 border-blue-100 p-8 m-4 rounded-xl bg-white shadow-sm min-h-[350px] flex items-center justify-center">
+        <div className="text-[12rem] text-center font-bold text-blue-700 py-4 leading-none tracking-tighter">{count}</div>
       </div>
 
-      {/* Increment Button */}
-      <div
-        className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-8 m-4 rounded-xl cursor-pointer hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-lg transform hover:scale-[1.02] active:scale-[0.98]"
-        onClick={handleIncrement}
-      >
-        <div className="text-6xl text-center font-bold flex items-center justify-center">
-          <PlusIcon className="mr-2 text-4xl" />
-          <span>{incrementAmount}</span>
+      {/* Increment and Decrement Buttons */}
+      <div className="flex gap-4 m-4">
+        <div
+          className="flex-1 bg-gradient-to-r from-blue-500 to-blue-600 text-white p-8 rounded-xl cursor-pointer hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-lg transform hover:scale-[1.02] active:scale-[0.98] select-none"
+          onClick={handleIncrement}
+        >
+          <div className="text-6xl text-center font-bold flex items-center justify-center">
+            <PlusIcon className="mr-2 text-4xl" />
+            <span>{incrementAmount}</span>
+          </div>
+        </div>
+        
+        <div
+          className="flex-1 bg-gradient-to-r from-red-500 to-red-600 text-white p-8 rounded-xl cursor-pointer hover:from-red-600 hover:to-red-700 transition-all duration-300 shadow-lg transform hover:scale-[1.02] active:scale-[0.98] select-none"
+          onClick={handleDecrement}
+        >
+          <div className="text-6xl text-center font-bold flex items-center justify-center">
+            <span className="mr-2 text-4xl leading-none">-</span>
+            <span>{incrementAmount}</span>
+          </div>
         </div>
       </div>
 
       {/* Instructions */}
-      <div className="text-center text-sm text-gray-600 my-3 flex items-center justify-center">
+      <div className="text-center text-sm text-gray-600 my-3 flex items-center justify-center select-none">
         <HelpIcon className="mr-1 text-blue-500" />
-        <span>(您也可按"空格键"，进行添加。)</span>
+        <span>(按 空格/↑ 增加，按 -/↓ 减少)</span>
       </div>
 
       {/* Controls */}
@@ -196,14 +253,24 @@ export default function OnlineCounter() {
           </div>
         </div>
 
-        <Button
-          variant="outline"
-          className="bg-blue-500 text-white hover:bg-blue-600 transition-colors shadow-sm"
-          onClick={resetCounter}
-        >
-          <RefreshIcon className="mr-2" />
-          重置所有数据
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button
+            variant="outline"
+            className="text-blue-500 border-blue-200 hover:bg-blue-50 transition-colors shadow-sm"
+            onClick={() => setIsFullscreen(true)}
+          >
+            <ExpandIcon className="mr-2" />
+            全屏
+          </Button>
+          <Button
+            variant="outline"
+            className="bg-blue-500 text-white hover:bg-blue-600 transition-colors shadow-sm"
+            onClick={resetCounter}
+          >
+            <RefreshIcon className="mr-2" />
+            重置
+          </Button>
+        </div>
       </div>
 
       {/* Count Records */}
