@@ -157,6 +157,44 @@ jishuqi/
 - **开关统计**:在 `app/page.tsx` 中移除 `<BaiduAnalytics />` 即可关闭百度统计
 - **增量选项**:在 `online-counter.tsx` 的 `SelectContent` 中修改可选步长
 
+## 🌐 更多作品
+
+以下是作者维护的其他免费在线工具网站,欢迎体验:
+
+### 📥 Downloader / 下载工具
+
+| 网站 | 说明 |
+| --- | --- |
+| [DownloadAll](https://downloadall.app) | Downloader |
+
+### 🛡️ 网络安全 / IT
+
+| 网站 | 说明 |
+| --- | --- |
+| [EvaluationCat](https://evaluationcat.com) | Cyber Security |
+| [Password Remover](https://passwordremover.org) | Password Removal |
+| [Email Toolbox](https://emailtoolbox.io) | Email / DNS |
+| [PDF 工具](https://pdf.fj.cn) | PDF |
+
+### 🧮 Calculator / 计算器
+
+| 网站 | 说明 |
+| --- | --- |
+| [Bitumen Calculator](https://bitumencalculator.world) | Bitumen |
+| [CPM Calculator](https://cpmcalculator.world) | CPM |
+| [Wattly](https://wattly.world) | Electricity |
+| [Subway Calculator](https://subwaycalculator.com) | Subway Calories |
+| [Starbucks Nutrition Calculator](https://starbucksnutritioncalculator.app) | Starbucks Nutrition |
+| [Cooking Calculator](https://cookingcalculator.app) | Cooking |
+| [Market Hours](https://markethours.io) | Market Hours |
+
+### 🗺️ 国家 / 地理 / 旅行
+
+| 网站 | 说明 |
+| --- | --- |
+| [National Flag](https://nationalflag.io) | National Flags |
+| [Country Drawing](https://countrydrawing.com) | Country Drawing |
+
 ## 📄 License
 
 本项目基于 [MIT License](./LICENSE) 开源,可自由用于学习和商业用途。
