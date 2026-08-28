@@ -163,37 +163,37 @@ jishuqi/
 
 ### 📥 Downloader / 下载工具
 
-| 网站 | 说明 |
+| 网站 | 关键词 |
 | --- | --- |
-| [DownloadAll](https://downloadall.app) | Downloader |
+| [DownloadAll](https://downloadall.app) | [Downloader](https://downloadall.app) |
 
 ### 🛡️ 网络安全 / IT
 
-| 网站 | 说明 |
+| 网站 | 关键词 |
 | --- | --- |
-| [EvaluationCat](https://evaluationcat.com) | Cyber Security |
-| [Password Remover](https://passwordremover.org) | Password Removal |
-| [Email Toolbox](https://emailtoolbox.io) | Email / DNS |
-| [PDF 工具](https://pdf.fj.cn) | PDF |
+| [EvaluationCat](https://evaluationcat.com) | [Cyber Security](https://evaluationcat.com) |
+| [Password Remover](https://passwordremover.org) | [Password Removal](https://passwordremover.org) |
+| [Email Toolbox](https://emailtoolbox.io) | [Email / DNS](https://emailtoolbox.io) |
+| [PDF 工具](https://pdf.fj.cn) | [PDF](https://pdf.fj.cn) |
 
 ### 🧮 Calculator / 计算器
 
-| 网站 | 说明 |
+| 网站 | 关键词 |
 | --- | --- |
-| [Bitumen Calculator](https://bitumencalculator.world) | Bitumen |
-| [CPM Calculator](https://cpmcalculator.world) | CPM |
-| [Wattly](https://wattly.world) | Electricity |
-| [Subway Calculator](https://subwaycalculator.com) | Subway Calories |
-| [Starbucks Nutrition Calculator](https://starbucksnutritioncalculator.app) | Starbucks Nutrition |
-| [Cooking Calculator](https://cookingcalculator.app) | Cooking |
-| [Market Hours](https://markethours.io) | Market Hours |
+| [Bitumen Calculator](https://bitumencalculator.world) | [Bitumen](https://bitumencalculator.world) |
+| [CPM Calculator](https://cpmcalculator.world) | [CPM](https://cpmcalculator.world) |
+| [Wattly](https://wattly.world) | [Electricity](https://wattly.world) |
+| [Subway Calculator](https://subwaycalculator.com) | [Subway Calories](https://subwaycalculator.com) |
+| [Starbucks Nutrition Calculator](https://starbucksnutritioncalculator.app) | [Starbucks Nutrition](https://starbucksnutritioncalculator.app) |
+| [Cooking Calculator](https://cookingcalculator.app) | [Cooking](https://cookingcalculator.app) |
+| [Market Hours](https://markethours.io) | [Market Hours](https://markethours.io) |
 
 ### 🗺️ 国家 / 地理 / 旅行
 
-| 网站 | 说明 |
+| 网站 | 关键词 |
 | --- | --- |
-| [National Flag](https://nationalflag.io) | National Flags |
-| [Country Drawing](https://countrydrawing.com) | Country Drawing |
+| [National Flag](https://nationalflag.io) | [National Flags](https://nationalflag.io) |
+| [Country Drawing](https://countrydrawing.com) | [Country Drawing](https://countrydrawing.com) |
 
 ## 📄 License
 
